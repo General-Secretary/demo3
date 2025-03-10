@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
-import zedan from "/public/assits/WIN_20250219_13_35_27_Pro.jpeg"
+
 import { Vazirmatn } from 'next/font/google';
-import BlobAnimation from '../BlobAnimation';
+
 const vazir = Vazirmatn({
     subsets: ['arabic'],
     weight: ['400', '700']
@@ -19,7 +19,7 @@ export default function MoreThan450() {
                 <div className='md:w-1/3 w-full'>
                     <div className='sm:w-[70%]  my-5 md:w-[80%] lg:w-[70%]  mx-auto overflow-hidden'>
                         <div className='relative rounded-2xl overflow-hidden bg-slate-400'>
-                            <Image unoptimized src={zedan} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
+                            <Image unoptimized src={"/assits/WIN_20250219_13_35_27_Pro.jpeg"} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
                             <div className='morethan450 rounded-2xl flex justify-center items-end absolute top-0 left-0 right-0 bottom-0 '>
                                 <div className='flex w-[70%] justify-around items-center h-2/5'>
                                     <div className='w-1/3'>
@@ -38,7 +38,7 @@ export default function MoreThan450() {
                 <div className='md:w-1/3 w-full'>
                     <div className='sm:w-[70%] my-5  md:w-[80%] lg:w-[70%]  mx-auto overflow-hidden'>
                         <div className='relative rounded-2xl overflow-hidden bg-slate-400'>
-                            <Image unoptimized src={zedan} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
+                            <Image unoptimized src={"/assits/WIN_20250219_13_35_27_Pro.jpeg"} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
                             <div className='morethan450 rounded-2xl flex justify-center items-end absolute top-0 left-0 right-0 bottom-0 '>
                                 <div className='flex w-[70%] justify-around items-center h-2/5'>
                                     <div className='w-1/3'>
@@ -57,7 +57,7 @@ export default function MoreThan450() {
                 <div className='md:w-1/3 w-full'>
                     <div className='sm:w-[70%] my-5  md:w-[80%] lg:w-[70%]  mx-auto overflow-hidden'>
                         <div className='relative rounded-2xl overflow-hidden bg-slate-400'>
-                            <Image unoptimized src={zedan} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
+                            <Image unoptimized src={"/assits/WIN_20250219_13_35_27_Pro.jpeg"} width={400} className='mx-auto w-full rounded-2xl' height={400} alt=' ' />
                             <div className='morethan450 rounded-2xl flex justify-center items-end absolute top-0 left-0 right-0 bottom-0 '>
                                 <div className='flex w-[70%] justify-around items-center h-2/5'>
                                     <div className='w-1/3'>

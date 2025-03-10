@@ -10,7 +10,7 @@ const vazir = Vazirmatn({
 export default function Describe({ marginTop }) {
     return (<>
         <div id='describeSection' className={`mb-36 ${marginTop} z-10`}>
-            <h2 className='text-center font-vazir text-white my-10 font-extrabold text-4xl'>ما هو الوصف الأنسب لك؟</h2>
+            <h2 className='text-center font-vazir text-white my-10 font-extrabold text-4xl'>ما هو الوصفgffg الأنسب لك؟</h2>
             <div className='flex justify-around md:w-[80%] flex-wrap mx-auto  items-center'>
                 <Link href={"/charity"} className='w-full xs:w-[50%] lg:w-[25%] md:p-5 lg:p-7 my-5'>
                     <div className=" w-[80%] mx-auto h-[300px]  bg-gray-700 rounded-[40px] bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 ">

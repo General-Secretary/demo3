@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import zedan from "./assits/WIN_20250219_13_35_27_Pro.jpeg"
+import zedan from "/public/assits/WIN_20250219_13_35_27_Pro.jpeg"
 import { Vazirmatn } from 'next/font/google';
 import BlobAnimation from '../BlobAnimation';
 const vazir = Vazirmatn({

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Vazirmatn } from 'next/font/google';
 import Image from 'next/image'
-import charity from "./assits/9b2418014ec8bfa6c4453f26c54e57c8.PNG"
-import supportive from "./assits/a987f0341e3156c51ebd63296773d265.PNG"
-import investor from "./assits/ca1e1cd98ef8a7072e82ad0683e4de45.PNG"
-import startup from "./assits/33b79edb64b2778583faff1b90e8cc51.PNG"
+import charity from "/public/assits/9b2418014ec8bfa6c4453f26c54e57c8.PNG"
+import supportive from "/public/assits/a987f0341e3156c51ebd63296773d265.PNG"
+import investor from "/public/assits/ca1e1cd98ef8a7072e82ad0683e4de45.PNG"
+import startup from "/public/assits/33b79edb64b2778583faff1b90e8cc51.PNG"
 import Link from 'next/link';
 const vazir = Vazirmatn({
     subsets: ['arabic'],

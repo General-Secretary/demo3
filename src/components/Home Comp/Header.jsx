@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "./assits/logo.png"
+import img from "/public/assits/logo.png"
 import Image from 'next/image'
 import { Vazirmatn } from 'next/font/google';
 import Button from '@mui/material/Button';
